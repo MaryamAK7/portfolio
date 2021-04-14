@@ -1,0 +1,71 @@
+.AboutPage{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+.my-pic{
+    width: auto;
+    height: 70%;
+}
+.abtPage-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abtPage-text{
+    text-align: justify;
+    margin-left: 50px;
+}
+.btn-resume{
+    margin-top: 10%;
+    width: fit-content;
+    background-color: #814c56;
+    padding: 15px 40px;
+    border-radius: 0px;
+    border: 2px solid #814c56;
+}
+.bio{
+    font-size:larger;
+}
+.abt-header{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 1100px) {
+    .my-pic{
+        height: 40%;
+    }
+    .btn-resume{
+        margin-top: 20px;
+    }
+    .abtPage-content{
+        width: 90%;
+    }
+    .abtPage-text{
+        margin-left: 5px;
+    }
+    .bio{
+        font-size:large;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .my-pic{
+        height: 30%;
+    }
+    .abtPage-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .abtPage-text{
+        text-align: justify;
+    }
+    .btn-resume{
+        margin-top: 5px;
+    }
+    .bio{
+        font-size:medium;
+    }
+    
+}

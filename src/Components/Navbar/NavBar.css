@@ -1,0 +1,36 @@
+.portfolio-navbar{ 
+    background-color: #814c56 ;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navBar-br{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.portfolio-navbar.active{
+    background-color: transparent !important;
+}
+.navigation{
+    color: white;
+    margin-left: 15px;
+    opacity: 0.6;
+}
+.navigation:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+@media  only screen and (max-width: 900px) {
+
+    .portfolio-navbar{ 
+    height: auto ;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    }
+    .navBar-br{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}

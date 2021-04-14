@@ -1,0 +1,16 @@
+
+.workPage{
+    background-color: white;
+    height: fit-content;
+}
+.wrk-page-header{
+    padding-top: 50px;
+    width: fit-content;
+    margin: auto;
+}
+.cards{
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
