@@ -9,8 +9,9 @@
     margin: auto;
 }
 .cards{
-    padding: 50px 20px;
+    padding: 50px 40px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 200px ;
+    grid-gap: 40px;
 }
