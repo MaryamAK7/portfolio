@@ -1,6 +1,6 @@
 .AboutPage{
     height: 100vh;
-    color: white;
+    color: #814c56;
     display: flex;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.37);
@@ -32,6 +32,7 @@
 }
 .abt-header{
     margin-bottom: 10px;
+    color: #814c56;
 }
 @media only screen and (max-width: 1100px) {
     .my-pic{

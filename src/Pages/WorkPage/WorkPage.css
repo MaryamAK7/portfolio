@@ -1,17 +1,38 @@
-
-.workPage{
-    background-color: white;
-    height: fit-content;
+.workPage {
+  background-color: white;
+  height: fit-content;
+  padding: 50px;
+  width: 100vw;
 }
-.wrk-page-header{
-    padding-top: 50px;
+.wrk-page-header {
+  padding-bottom: 50px;
+  color: #814c56;
+  width: fit-content;
+  margin: auto;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
     width: fit-content;
     margin: auto;
+    padding-bottom: 20px;
+  }
+  .workPage {
+    padding: 0px;
+  }
+  .wrk-page-header {
+    padding-top: 20px;
+  }
 }
-.cards{
-    padding: 50px 40px;
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: 200px ;
-    grid-gap: 40px;
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width: 450px) {
 }

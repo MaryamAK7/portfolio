@@ -1,15 +1,12 @@
 import React from "react";
 import "./workCard.css";
-import Card from "react-bootstrap/Card";
 
 export default function WorkCard({ card }) {
   return (
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          {/* <Card className="bg-dark text-white">
-            <Card.Img src={card.img} alt="Card image" />
-          </Card> */}
+          <img src={card.img} alt="Card" style={{width: '100%', height:'100%'}} />
         </div>
         <div class="flip-card-back">
           <h2 className="card-title">{card.title}</h2>
@@ -31,6 +28,9 @@ export default function WorkCard({ card }) {
             {" "}
             <i class="fab fa-github"></i>
           </a>
+          <div className='app-desc'>
+            {card.desc}
+          </div>
         </div>
       </div>
     </div>

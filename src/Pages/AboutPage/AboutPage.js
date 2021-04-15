@@ -17,7 +17,7 @@ export default function AboutPage() {
               <a target="_blank" rel="noreferrer" href="mailto:maryam.abdelkarim7@gmail.com?body=My custom mail body" className='linkedin-link'><i class="far fa-envelope"></i></a>
               <a target="_blank" rel="noreferrer" href="https://github.com/MaryamAK7" className='linkedin-link'> <i class="fab fa-github"></i></a>
             </div>
-            <a target="_blank" rel="noreferrer" href='https://www.google.com'> 
+            <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Emg2fhacylQFvlS-MQBJPsmSMPDKAwlp/view?usp=sharing'> 
             <Button variant="dark" type="submit" className="btn-resume">
               Resume
             </Button>
