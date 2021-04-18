@@ -1,19 +1,25 @@
 .portfolio-navbar{ 
     background-color: #814c56 ;
     height: 70px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    z-index: 999;
+    z-index: 1;
+    overflow: hidden;
+}
+.portfolio-navbar.active{
+    background-color: transparent !important;
 }
 .navBar-br{
     margin-left: 70px;
     margin-top: 10px;
 }
-.portfolio-navbar.active{
-    background-color: transparent !important;
+.navBar-br:hover{
+   cursor: pointer;
 }
 .navigation{
-    color: white;
+    color: #6e3842;
+    padding: 5px;
     margin-left: 15px;
     opacity: 0.6;
 }
@@ -21,13 +27,9 @@
     opacity: 1;
     cursor: pointer;
 }
-@media  only screen and (max-width: 900px) {
-
+@media  only screen and (max-width: 1100px) {
     .portfolio-navbar{ 
-    height: auto ;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+        height: auto;
     }
     .navBar-br{
         margin-left: 0px;

@@ -5,7 +5,8 @@
   width: 600px;
   height: 300px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  /* perspective: 1000px;  */
+  /* Remove this if you don't want the 3D effect */
   margin: 0px 20px;
 }
 
@@ -68,11 +69,6 @@
   }
   @media only screen and (max-width: 1100px) {
     .flip-card {
-      background-color: transparent;
-      width: 300px;
-      height: 200px;
-      border: 1px solid #f1f1f1;
-      perspective: 1000px; /* Remove this if you don't want the 3D effect */
       margin: 0px;
     }
     .card-title{
@@ -83,19 +79,13 @@
   @media only screen and (max-width: 600px) {
     .flip-card {
       background-color: transparent;
-      width: 200px;
-      height: 100px;
-      border: 1px solid #f1f1f1;
-      perspective: 1000px; /* Remove this if you don't want the 3D effect */
-      /* margin: 0px 20px; */
+      width: 400px;
+      height: 200px;
     }
   }
   @media only screen and (max-width: 450px) {
     .flip-card {
-      background-color: transparent;
       width: 300px;
       height: 200px;
-      border: 1px solid #f1f1f1;
-      perspective: 1000px; /* Remove this if you don't want the 3D effect */
     }
   }

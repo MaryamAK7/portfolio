@@ -1,59 +1,74 @@
-.contactMe-pg{
+.contactMe-pg {
   display: flex;
   justify-content: center;
   align-items: center;
-   background-color: white;
-   height: 100vh;
-} 
-.contact-form{
-    width: 40vw;
-    height: 100%;
-    margin: auto;
-    margin-top: 30px;
+  background-color: white;
+  height: 100vh;
 }
-.contact-content{
-    
-    padding: 50px;
+.contact-form {
+  width: 40vw;
+  height: 100%;
+  margin: auto;
+  margin-top: 30px;
 }
-.contact-form-input{
-    border-bottom: rgb(202, 202, 202) solid 1px !important;
-    margin-top: 30px;
-
+.contact-content {
+  padding: 50px;
 }
-.cform{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.contact-form-input {
+  border-bottom: rgb(202, 202, 202) solid 1px !important;
+  margin-top: 30px;
 }
-.contact-header{
-    text-align: center;
-    padding: 10px 0px;
+.cform {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-header {
+  text-align: center;
+  padding: 10px 0px;
 }
 .form-control {
-    border: 0;
-    border-radius: 0px;
+  border: 0;
+  border-radius: 0px;
 }
-.btn-contact-send{
-    width: fit-content;
-    margin: auto;
-    background-color: #814c56;
-    border: 2px solid #814c56;
-    padding: 15px 40px;
-    border-radius: 0px;
+.btn-contact-send {
+  width: fit-content;
+  margin: auto;
+  background-color: #814c56;
+  border: 2px solid #814c56;
+  padding: 15px 40px;
+  border-radius: 0px;
 }
-.form-control:focus{
-    border-color: #cccccc;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.form-control:focus {
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-email{
+    color:#814c56;
+    border: whitesmoke;
 }
 
-@media only screen and (max-width: 1100px){
-    .contact-form{
-        width: 75vw;
-    }
+@media only screen and (max-width: 1000px) {
+  .contactMe-pg {
+    height: fit-content;
+    padding: 50px 0px;
+  }
+  .contact-form {
+    width: 75vw;
+  }
+  .contact-content {
+    padding: 20px 0px;
+  }
 }
-@media only screen and (max-width: 500px){
-    .contact-form{
-        width: 90vw;
-    }
+@media only screen and (max-width: 500px) {
+  .contactMe-pg {
+    height: fit-content;
+  }
+  .contact-form {
+    width: 90vw;
+  }
+  .contact-content {
+    padding: 20px 0px;
+  }
 }

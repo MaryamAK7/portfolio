@@ -5,3 +5,8 @@
     color: white;
     margin-left: 100px;
 }
+@media only screen and (max-width: 600px){
+    .header{
+        margin-left: 15px;
+    }
+}
