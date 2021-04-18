@@ -43,9 +43,14 @@
   font-style: italic;
   color: white;
   font-size: medium;
+  margin-top: 20px;
 }
 /* Style the back side */
 .flip-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #814c56;
   color: white;
   transform: rotateY(180deg);
@@ -60,8 +65,9 @@
   .demo-link{
     color: white;
     width: fit-content;
+    text-align: center;
     opacity: 0.6;
-    margin-left: 5px;
+    margin-left: 15px;
   }
   .demo-link:hover{
     color: white;

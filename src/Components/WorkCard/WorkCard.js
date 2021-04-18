@@ -21,7 +21,7 @@ export default function WorkCard({ card }) {
         </div>
         <div class="flip-card-back">
           <h2 className="card-title">{card.title}</h2>
-          <a
+          <div> <a
             target="_blank"
             rel="noreferrer"
             href={card.demo}
@@ -39,6 +39,7 @@ export default function WorkCard({ card }) {
             {" "}
             <i class="fab fa-github"></i>
           </a>
+          </div>
           <div className="app-desc">{card.desc}</div>
         </div>
       </div>

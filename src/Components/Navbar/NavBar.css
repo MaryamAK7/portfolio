@@ -9,6 +9,7 @@
 }
 .portfolio-navbar.active{
     background-color: transparent !important;
+    opacity: 0.3;
 }
 .navBar-br{
     margin-left: 70px;

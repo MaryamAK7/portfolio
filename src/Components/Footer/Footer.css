@@ -1,7 +1,6 @@
 .portfolio-footer{
     display: flex;
     justify-content: space-between;
-    /* width: 100vw; */
     padding: 20px 15px;
     color: white;
     position: sticky;
@@ -32,7 +31,9 @@
     .footer-desc{
         font-size: 10px;
     }
-    /* .portfolio-footer{
-        padding: 20px 5px;  
-    }*/
+    .linkedin-link{
+        color: white;
+        margin: 0px 10px;
+        opacity: 0.7;
+    }
 }
