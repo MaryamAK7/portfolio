@@ -1,5 +1,5 @@
 .portfolio-navbar{ 
-    background-color: #814c56 ;
+    background-color: transparent ;
     height: 70px;
     position: fixed;
     width: 100%;
@@ -9,22 +9,19 @@
 }
 
 .portfolio-navbar.active{
-    background-color: transparent !important;
-    opacity: 0.3;
+    background-color: #814c56  !important;
 }
-.portfolio-navbar.active:hover{
-    background-color: #ffffff !important;
-    opacity: 1;
-}
+
 .navBar-br{
     margin-left: 70px;
     margin-top: 10px;
+    color: white !important;
 }
 .navBar-br:hover{
    cursor: pointer;
 }
 .navigation{
-    color: #6e3842;
+    color: white;
     padding: 5px;
     margin: 0px 15px;
     opacity: 0.6;

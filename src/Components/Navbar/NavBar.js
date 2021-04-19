@@ -11,7 +11,7 @@ export default function NavBar() {
   const changeBackground = () => {
     if (window.scrollY >= 80) {
       setNav(true);
-      setMyColor("#814c56");
+      // setMyColor("#814c56");
     } else {
       setNav(false);
       setMyColor("white");
@@ -24,7 +24,6 @@ export default function NavBar() {
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand
           className="navBar-br"
-          style={{ color: myColor === "white" ? "white" : "#6e3842" }}
           onClick={() => {
             scroll.scrollToTop();
           }}
@@ -39,7 +38,6 @@ export default function NavBar() {
             <Link to="work" smooth={true} duration={500}>
               <Nav
                 className="navigation"
-                style={{ color: myColor === "white" ? "white" : "#6e3842" }}
               >
                 {" "}
                 Work{" "}
