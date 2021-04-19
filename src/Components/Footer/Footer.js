@@ -11,9 +11,9 @@ export default function Footer() {
                © Maryam Abdel-Karim 2021 | Front-end Web Developper | maryam.abdelkarim7@gmail.com
             </div>
             <div className='footer-links'>
-              <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/maryam-abdel-karim-9548771bb' className='linkedin-link'> <img src={linkedin} alt='' /></a>
+              <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/maryam-abdel-karim-9548771bb' className='linkedin-link'> <img src={linkedin} alt='' style={{width:'26px',paddingRight:'5px'}} /></a>
               <a target="_blank" rel="noreferrer" href="mailto:maryam.abdelkarim7@gmail.com?body=My custom mail body" className='linkedin-link'><img src={ email} alt='' style={{width:'30px',paddingRight:'5px'}} /></a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/MaryamAK7" className='linkedin-link'> <img src={github} alt='' /></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/MaryamAK7" className='linkedin-link'> <img src={github} alt='' style={{width:'28px',paddingRight:'5px'}}/></a>
             
             </div>
         </div>
