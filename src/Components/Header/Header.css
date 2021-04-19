@@ -47,10 +47,11 @@
 }
 @media only screen and (max-width: 600px){
     .header{
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .header-arrow{
         left:45%;
+        top: 90%;
     }
     .header-1{
         font-size: 50px;
