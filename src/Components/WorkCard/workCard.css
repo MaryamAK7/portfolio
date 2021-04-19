@@ -63,13 +63,25 @@
     width: 100%;
   }
   .demo-link{
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    opacity: 0.6;
+  }
+  .demo-link:hover{
+    color: white;
+    opacity: 1;
+  }
+  .git-link{
+    font-size: 20px;
     color: white;
     width: fit-content;
     text-align: center;
     opacity: 0.6;
     margin-left: 15px;
   }
-  .demo-link:hover{
+  .git-link:hover{
     color: white;
     opacity: 1;
   }
@@ -79,7 +91,9 @@
     }
     .card-title{
       margin: 10px 0px;
-      font-size: medium;
+    }
+    .demo-link{
+      margin-left: 10px;
     }
   }
   @media only screen and (max-width: 600px) {
@@ -88,6 +102,7 @@
       width: 400px;
       height: 200px;
     }
+    
   }
   @media only screen and (max-width: 450px) {
     .flip-card {

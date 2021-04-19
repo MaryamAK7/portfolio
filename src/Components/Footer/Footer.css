@@ -1,11 +1,10 @@
 .portfolio-footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 80px;
     padding: 20px 15px;
     color: white;
-    position: sticky;
-    bottom: 0;
-    z-index: 998;
 }
 .footer-desc{
     font-size: 15px;
@@ -14,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
-   
 }
 .linkedin-link{
     color: white;
@@ -28,12 +26,20 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .footer-links{
+        margin-right: 5px;
+    }
+    .portfolio-footer{
+        height: fit-content;
+        padding: 20px 10px;
+    }
     .footer-desc{
         font-size: 10px;
     }
     .linkedin-link{
         color: white;
-        margin: 0px 10px;
+        width: 20px;
+        margin: 0px 4px;
         opacity: 0.7;
     }
 }

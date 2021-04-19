@@ -11,6 +11,10 @@
     background-color: transparent !important;
     opacity: 0.3;
 }
+.portfolio-navbar.active:hover{
+    background-color: #ffffff !important;
+    opacity: 1;
+}
 .navBar-br{
     margin-left: 70px;
     margin-top: 10px;
@@ -34,6 +38,6 @@
     }
     .navBar-br{
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }

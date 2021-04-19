@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import github from '../../images/github.png'
 import "./workCard.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,10 +35,10 @@ export default function WorkCard({ card }) {
             target="_blank"
             rel="noreferrer"
             href={card.git}
-            className="demo-link"
+            className="git-link"
           >
             {" "}
-            <i class="fab fa-github"></i>
+            <img src={github} alt='' />
           </a>
           </div>
           <div className="app-desc">{card.desc}</div>
