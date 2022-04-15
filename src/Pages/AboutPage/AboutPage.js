@@ -22,7 +22,7 @@ export default function AboutPage() {
             Energetic Front-End Web Developer, with previous experience as a
             physicist, teacher and a relentless drive for continuous improvement
             in all of my endeavors. I have experience using HTML, CSS,
-            Javascript, React, Bootstrap, AntDesign, Figma and Git/GitHub. I've
+            Javascript, React, Bootstrap, AntDesign, Figma, AdobeXD and Git/GitHub. I've
             just started diving into Python, SQL and UX designing. I also have
             quite a bit of older experience coding in C/C++ and Java. My
             specialities include quickly learning new skills and programming
