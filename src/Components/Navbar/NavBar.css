@@ -1,7 +1,7 @@
 .portfolio-navbar{ 
     background-color: transparent ;
     height: 70px;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 999;

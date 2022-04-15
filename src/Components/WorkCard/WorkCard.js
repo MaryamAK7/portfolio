@@ -41,7 +41,7 @@ export default function WorkCard({ card }) {
             <img src={github} alt='' />
           </a>
           </div>
-          <div className="app-desc">{card.desc}</div>
+          <div className="app-desc"><div>{card.desc}</div><div style={{fontSize : 'small'}}>{card.lang}</div><div style={{fontSize : 'small'}}>{card.note}</div></div>
         </div>
       </div>
     </div>
